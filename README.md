@@ -1,7 +1,7 @@
 # EX-10 Implementation of Classical Planning Algorithm.
 
 ### Aim:
-To implement the Classical Planning Algorithm.&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;**DATE: 17.04.2024**
+To implement the Classical Planning Algorithm.&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;**DATE: 17.04.2024**
 
 ### Algorithm:
 - Define the initial state 
@@ -43,10 +43,6 @@ Developed By: ROHIT JAIN D
 Register No : 212222230120
 ```
 
-<table>
-<tr>
-<td width=40%>
-
 #### Example - 1
 ```Python
 initial_state = {'A': 'Table', 'B': 'Table'}
@@ -56,21 +52,10 @@ actions={'move_A_to_B':{'precondition':{'A':'Table','B':'Table'},'effect':{'A':'
 plan = find_plan(initial_state, goal_state, actions)
 print(plan)
 ```
-
-</td> 
-<td>
-
 #### Output:
 ```
 ['move_A_to_B']
 ```
-</td>
-</tr> 
-</table>
-
-<table>
-<tr>
-<td width=40%>
   
 #### Example - 2
 ```Python
@@ -82,18 +67,11 @@ actions={'move_A_to_B':{'precondition':{'A':'Table','B':'Table'},'effect':{'A': 
 plan = find_plan(initial_state, goal_state, actions)
 print(plan)
 ```
-
-</td> 
-<td>
     
 #### Output:
 ```
 ['move_A_to_B', 'move_B_to_C']
 ```
-
-</td>
-</tr> 
-</table>
 
 ### Result:
 Therefore,Implementation of Classical Planning Algorithm is implemetated successfully.
