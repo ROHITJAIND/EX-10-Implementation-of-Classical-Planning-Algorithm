@@ -1,4 +1,5 @@
-# EX-10 Implementation of Classical Planning Algorithm
+# EX-10 Implementation of Classical Planning Algorithm.
+
 ### Aim:
 To implement the Classical Planning Algorithm.&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;**DATE: 17.04.2024**
 
